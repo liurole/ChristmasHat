@@ -27,7 +27,7 @@ def detect(filename, cascade_file):
     
     faces = cascade.detectMultiScale(gray,
                                      # detector options
-                                     scaleFactor = 1.01,
+                                     scaleFactor = 1.011,
                                      minNeighbors = 5,
                                      minSize = (12, 12))
     return faces, image
